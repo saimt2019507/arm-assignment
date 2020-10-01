@@ -9,7 +9,7 @@ __main  FUNCTION
 		SUBNE r2,r2,r7;
 		MOVNE r2,#0;
 		ADDEQ r2,r2,r4;
-		MOVNE r2,#0;
+		MOVNE r4,#0;
 			
 stop    B stop;			
      ENDFUNC
